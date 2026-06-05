@@ -1,8 +1,8 @@
 {
-  "format_version": "1.21.80",
+  "format_version": "1.26.0",
   "minecraft:water_settings": {
     "description": {
-      "identifier": "minecraft:default_water"
+      "identifier": "opus:default_water"
     },
     "particle_concentrations": {
       "chlorophyll": 0.0,
@@ -26,7 +26,9 @@
       "pull": 0.3799999952316284,
       "mix": 0.20000000298023224,
       "frequency_scaling": 1.2000000476837158,
-      "speed_scaling": 1.0299999713897705
-    }
+      "speed_scaling": 1.0299999713897705,
+      "direction_increment": 80.0
+    },
+    "biome_water_color_contribution": 0.2
   }
 }

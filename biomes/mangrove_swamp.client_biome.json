@@ -25,13 +25,13 @@
         "color": "#7B5334"
       },
       "minecraft:atmosphere_identifier": {
-        "atmosphere_identifier": "minecraft:default_atmospherics"
+        "atmosphere_identifier": "opus:default_atmospherics"
       },
       "minecraft:color_grading_identifier": {
-        "color_grading_identifier": "sample:custom_color_grading"
+        "color_grading_identifier": "opus:default_color_grading"
       },
       "minecraft:lighting_identifier": {
-        "lighting_identifier": "minecraft:default_lighting"
+        "lighting_identifier": "opus:default_lighting"
       },
       "minecraft:biome_music": {
         "music_definition": "mangrove_swamp"

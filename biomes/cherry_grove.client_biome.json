@@ -18,16 +18,16 @@
         "color": "#b6db61"
       },
       "minecraft:atmosphere_identifier": {
-        "atmosphere_identifier": "minecraft:default_atmospherics"
+        "atmosphere_identifier": "opus:default_atmospherics"
       },
       "minecraft:color_grading_identifier": {
-        "color_grading_identifier": "sample:custom_color_grading"
+        "color_grading_identifier": "opus:default_color_grading"
       },
       "minecraft:lighting_identifier": {
-        "lighting_identifier": "minecraft:default_lighting"
+        "lighting_identifier": "opus:default_lighting"
       },
       "minecraft:water_identifier": {
-        "water_identifier": "minecraft:default_water"
+        "water_identifier": "opus:default_water"
       }
     }
   }
