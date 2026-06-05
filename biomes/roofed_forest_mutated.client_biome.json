@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.70",
+  "opus:client_biome": {
+    "description": {
+      "identifier": "roofed_forest_mutated"
+    },
+    "components": {
+      "opus:fog_appearance": {
+        "fog_identifier": "opus:fog_semi_humid"
+      },
+      "opus:water_appearance": {
+        "surface_color": "#44AFF5"
+      },
+      "opus:dry_foliage_color": {
+        "color": "#7B5334"
+      },
+      "opus:atmosphere_identifier": {
+        "atmosphere_identifier": "opus:default_atmospherics"
+      },
+      "opus:color_grading_identifier": {
+        "color_grading_identifier": "opus:custom_color_grading"
+      },
+      "opus:lighting_identifier": {
+        "lighting_identifier": "opus:default_lighting"
+      },
+      "opus:water_identifier": {
+        "water_identifier": "opus:default_water"
+      }
+    }
+  }
+}
