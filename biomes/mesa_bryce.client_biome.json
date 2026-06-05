@@ -6,7 +6,7 @@
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft:fog_mesa_bryce"
+        "fog_identifier": "opus:fog_mesa_bryce"
       },
       "minecraft:water_appearance": {
         "surface_color": "#497F99"

@@ -6,7 +6,7 @@
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft:fog_taiga_hills"
+        "fog_identifier": "opus:fog_taiga_hills"
       },
       "minecraft:water_appearance": {
         "surface_color": "#236583"

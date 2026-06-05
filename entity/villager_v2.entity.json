@@ -1,0 +1,74 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:villager_v2",
+            "materials": {
+                "default": "villager_v2",
+                "blend": "entity_alphablend"
+            },
+            "textures": {
+                "base": "textures/entity/villager2/villager",
+                "base2": "textures/entity/villager2/villager",
+                "base3": "textures/entity/villager2/villager",
+                "base4": "textures/entity/villager2/villager",
+                "base5": "textures/entity/villager2/villager",
+                "base6": "textures/entity/villager2/villager",
+                "baby_base": "textures/entity/villager2/villager_baby",
+                "baby_base2": "textures/entity/villager2/villager_baby",
+                "baby_base3": "textures/entity/villager2/villager_baby",
+                "baby_base4": "textures/entity/villager2/villager_baby",
+                "baby_base5": "textures/entity/villager2/villager_baby",
+                "baby_base6": "textures/entity/villager2/villager_baby",
+                "desert": "textures/entity/villager2/biomes/biome_desert",
+                "jungle": "textures/entity/villager2/biomes/biome_jungle",
+                "plains": "textures/entity/villager2/biomes/biome_plains",
+                "savanna": "textures/entity/villager2/biomes/biome_savanna",
+                "snow": "textures/entity/villager2/biomes/biome_snow",
+                "swamp": "textures/entity/villager2/biomes/biome_swamp",
+                "taiga": "textures/entity/villager2/biomes/biome_taiga",
+                "baby_desert": "textures/entity/villager2/biomes/biome_desert_baby",
+                "baby_jungle": "textures/entity/villager2/biomes/biome_jungle_baby",
+                "baby_plains": "textures/entity/villager2/biomes/biome_plains_baby",
+                "baby_savanna": "textures/entity/villager2/biomes/biome_savanna_baby",
+                "baby_snow": "textures/entity/villager2/biomes/biome_snow_baby",
+                "baby_swamp": "textures/entity/villager2/biomes/biome_swamp_baby",
+                "baby_taiga": "textures/entity/villager2/biomes/biome_taiga_baby",
+                "armorer": "textures/entity/villager2/professions/armorer",
+                "butcher": "textures/entity/villager2/professions/butcher",
+                "cartographer": "textures/entity/villager2/professions/cartographer",
+                "cleric": "textures/entity/villager2/professions/cleric",
+                "farmer": "textures/entity/villager2/professions/farmer",
+                "fisherman": "textures/entity/villager2/professions/fisherman",
+                "fletcher": "textures/entity/villager2/professions/fletcher",
+                "leatherworker": "textures/entity/villager2/professions/leatherworker",
+                "librarian": "textures/entity/villager2/professions/librarian",
+                "shepherd": "textures/entity/villager2/professions/shepherd",
+                "tool_smith": "textures/entity/villager2/professions/toolsmith",
+                "weapon_smith": "textures/entity/villager2/professions/weaponsmith",
+                "stonemason": "textures/entity/villager2/professions/stonemason",
+                "nitwit": "textures/entity/villager2/professions/nitwit",
+                "unskilled": "textures/entity/villager2/professions/unskilled",
+                "level_stone": "textures/entity/villager2/levels/level_stone",
+                "level_iron": "textures/entity/villager2/levels/level_iron",
+                "level_gold": "textures/entity/villager2/levels/level_gold",
+                "level_emerald": "textures/entity/villager2/levels/level_emerald",
+                "level_diamond": "textures/entity/villager2/levels/level_diamond"
+            },
+            "geometry": {
+                "default": "geometry.villager_v2",
+                "biome": "geometry.villager_v2.biome",
+                "profession": "geometry.villager_v2.profession",
+                "level": "geometry.villager_v2.level",
+                "baby": "geometry.villager_v2.baby",
+                "baby_biome": "geometry.villager_v2.baby.biome"
+            },
+            "render_controllers": [
+                "controller.render.villager_v3_base",
+                "controller.render.villager_v3_masked_biome",
+                "controller.render.villager_v3_masked_profession",
+                "controller.render.villager_v3_masked_level"
+            ]
+        }
+    }
+}

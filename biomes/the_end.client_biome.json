@@ -9,19 +9,19 @@
         "sky_color": "#000000"
       },
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft:fog_the_end"
+        "fog_identifier": "opus:fog_the_end"
       },
       "minecraft:water_appearance": {
         "surface_color": "#62529e"
       },
       "minecraft:atmosphere_identifier": {
-        "atmosphere_identifier": "minecraft:end_atmospherics"
+        "atmosphere_identifier": "opus:default_atmospherics"
       },
       "minecraft:color_grading_identifier": {
         "color_grading_identifier": "opus:default_color_grading"
       },
       "minecraft:lighting_identifier": {
-        "lighting_identifier": "minecraft:end_lighting"
+        "lighting_identifier": "opus:default_lighting"
       },
       "minecraft:water_identifier": {
         "water_identifier": "opus:default_water"

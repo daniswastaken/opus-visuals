@@ -6,7 +6,7 @@
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft:fog_crimson_forest"
+        "fog_identifier": "opus:fog_crimson_forest"
       },
       "minecraft:water_appearance": {
         "surface_color": "#905957"

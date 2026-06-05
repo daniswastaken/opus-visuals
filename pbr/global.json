@@ -13,8 +13,8 @@
       "global_metalness_emissive_roughness_subsurface": [
         0.0,
         0.0,
-        255.0,
-        0.0
+        185.0,
+        72.0
       ]
     },
     "particles": {
@@ -22,15 +22,15 @@
         0.0,
         0.0,
         255.0,
-        0.0
+        128.0
       ]
     },
     "items": {
       "global_metalness_emissive_roughness_subsurface": [
         0.0,
         0.0,
-        255.0,
-        0.0
+        155.0,
+        16.0
       ]
     }
   }

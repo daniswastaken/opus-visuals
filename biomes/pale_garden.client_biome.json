@@ -9,7 +9,7 @@
         "sky_color": "#b9b9b9"
       },
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft:fog_pale_garden"
+        "fog_identifier": "opus:fog_pale_garden"
       },
       "minecraft:water_appearance": {
         "surface_color": "#76889D"

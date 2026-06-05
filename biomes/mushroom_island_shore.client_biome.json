@@ -6,7 +6,7 @@
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "minecraft:fog_mushroom_island_shore"
+        "fog_identifier": "opus:fog_mushroom_island_shore"
       },
       "minecraft:water_appearance": {
         "surface_color": "#818193"
