@@ -1,32 +1,32 @@
 {
   "format_version": "1.21.70",
-  "opus:client_biome": {
+  "minecraft:client_biome": {
     "description": {
       "identifier": "basalt_deltas"
     },
     "components": {
-      "opus:fog_appearance": {
-        "fog_identifier": "opus:fog_basalt_deltas"
+      "minecraft:fog_appearance": {
+        "fog_identifier": "minecraft:fog_basalt_deltas"
       },
-      "opus:water_appearance": {
+      "minecraft:water_appearance": {
         "surface_color": "#3f76e4"
       },
-      "opus:ambient_sounds": {
+      "minecraft:ambient_sounds": {
         "addition": "ambient.basalt_deltas.additions",
         "loop": "ambient.basalt_deltas.loop",
         "mood": "ambient.basalt_deltas.mood"
       },
-      "opus:atmosphere_identifier": {
-        "atmosphere_identifier": "opus:default_atmospherics"
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "minecraft:default_atmospherics"
       },
-      "opus:color_grading_identifier": {
-        "color_grading_identifier": "opus:custom_color_grading"
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "sample:custom_color_grading"
       },
-      "opus:lighting_identifier": {
-        "lighting_identifier": "opus:default_lighting"
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "minecraft:default_lighting"
       },
-      "opus:water_identifier": {
-        "water_identifier": "opus:default_water"
+      "minecraft:water_identifier": {
+        "water_identifier": "minecraft:default_water"
       }
     }
   }

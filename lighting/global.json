@@ -1,8 +1,8 @@
 {
   "format_version": "1.21.80",
-  "opus:lighting_settings": {
+  "minecraft:lighting_settings": {
     "description": {
-      "identifier": "opus:default_lighting"
+      "identifier": "minecraft:default_lighting"
     },
     "directional_lights": {
       "orbital": {

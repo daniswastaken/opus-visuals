@@ -1,32 +1,32 @@
 {
   "format_version": "1.21.100",
-  "opus:client_biome": {
+  "minecraft:client_biome": {
     "description": {
-      "identifier": "opus:roofed_forest"
+      "identifier": "minecraft:roofed_forest"
     },
     "components": {
-      "opus:fog_appearance": {
-        "fog_identifier": "opus:fog_roofed_forest"
+      "minecraft:fog_appearance": {
+        "fog_identifier": "minecraft:fog_roofed_forest"
       },
-      "opus:water_appearance": {
+      "minecraft:water_appearance": {
         "surface_color": "#3B6CD1"
       },
-      "opus:dry_foliage_color": {
+      "minecraft:dry_foliage_color": {
         "color": "#7B5334"
       },
-      "opus:atmosphere_identifier": {
-        "atmosphere_identifier": "opus:default_atmospherics"
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "minecraft:default_atmospherics"
       },
-      "opus:color_grading_identifier": {
-        "color_grading_identifier": "opus:custom_color_grading"
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "sample:custom_color_grading"
       },
-      "opus:lighting_identifier": {
-        "lighting_identifier": "opus:default_lighting"
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "minecraft:default_lighting"
       },
-      "opus:water_identifier": {
-        "water_identifier": "opus:default_water"
+      "minecraft:water_identifier": {
+        "water_identifier": "minecraft:default_water"
       },
-      "opus:grass_appearance": {
+      "minecraft:grass_appearance": {
         "grass_is_shaded": true
       }
     }

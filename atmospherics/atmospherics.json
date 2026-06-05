@@ -1,7 +1,7 @@
 {
   "format_version": "1.21.40",
-  "opus:atmosphere_settings": {
-    "description": { "identifier": "opus:default_atmospherics" },
+  "minecraft:atmosphere_settings": {
+    "description": { "identifier": "minecraft:default_atmospherics" },
     "sky_zenith_color": {
       "0.000000": [103, 130, 170],
       "0.644880": [40, 40, 40],

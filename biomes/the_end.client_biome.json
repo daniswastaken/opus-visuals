@@ -1,30 +1,30 @@
 {
   "format_version": "1.21.70",
-  "opus:client_biome": {
+  "minecraft:client_biome": {
     "description": {
       "identifier": "the_end"
     },
     "components": {
-      "opus:sky_color": {
+      "minecraft:sky_color": {
         "sky_color": "#000000"
       },
-      "opus:fog_appearance": {
-        "fog_identifier": "opus:fog_the_end"
+      "minecraft:fog_appearance": {
+        "fog_identifier": "minecraft:fog_the_end"
       },
-      "opus:water_appearance": {
+      "minecraft:water_appearance": {
         "surface_color": "#62529e"
       },
-      "opus:atmosphere_identifier": {
-        "atmosphere_identifier": "opus:end_atmospherics"
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "minecraft:end_atmospherics"
       },
-      "opus:color_grading_identifier": {
-        "color_grading_identifier": "opus:custom_color_grading"
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "sample:custom_color_grading"
       },
-      "opus:lighting_identifier": {
-        "lighting_identifier": "opus:end_lighting"
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "minecraft:end_lighting"
       },
-      "opus:water_identifier": {
-        "water_identifier": "opus:default_water"
+      "minecraft:water_identifier": {
+        "water_identifier": "minecraft:default_water"
       }
     }
   }

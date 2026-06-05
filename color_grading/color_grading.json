@@ -1,8 +1,8 @@
 {
   "format_version": "1.21.90",
-  "opus:color_grading_settings": {
+  "minecraft:color_grading_settings": {
     "description": {
-      "identifier": "opus:custom_color_grading"
+      "identifier": "sample:custom_color_grading"
     },
     "color_grading": {
       "midtones": {

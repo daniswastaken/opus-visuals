@@ -1,6 +1,6 @@
 {
   "format_version": "1.21.80",
-  "opus:shadow_settings": {
+  "minecraft:shadow_settings": {
     "shadow_style": "blocky_shadows",
     "texel_size": 16
   }
