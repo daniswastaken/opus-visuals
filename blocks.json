@@ -1,10 +1,45 @@
 {
-    "format_version": [
-        1,
-        1,
-        0
-    ],
-    "cauldron": {
+    "format_version": [1, 1, 0],
+    "minecraft:acacia_sapling": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:allium": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:amethyst_cluster": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:azure_bluet": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:beetroot": {
+        "blockshape": "rows"
+    },
+    "minecraft:birch_sapling": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:blue_orchid": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:brain_coral": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:brown_mushroom": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:bubble_coral": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:bush": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:cactus_flower": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:carrots": {
+        "blockshape": "rows"
+    },
+    "minecraft:cauldron": {
         "textures": {
             "down": "cauldron_bottom",
             "east": "cauldron_water",
@@ -14,48 +49,20 @@
             "west": "cauldron_water"
         }
     },
-    "ice": {
-        "carried_textures": "ice_carried"
+    "minecraft:cave_vines": {
+        "blockshape": "cross_texture"
     },
-    "frosted_ice": {
-        "carried_textures": "frosted_ice_carried"
+    "minecraft:cave_vines_body_with_berries": {
+        "blockshape": "cross_texture"
     },
-    "tinted_glass": {
-        "carried_textures": "tinted_glass_carried"
+    "minecraft:cave_vines_head_with_berries": {
+        "blockshape": "cross_texture"
     },
-    "slime": {
-        "carried_textures": "slime_block_carried"
+    "minecraft:cherry_sapling": {
+        "blockshape": "cross_texture"
     },
-    "honey_block": {
-        "carried_textures": {
-            "down": "honey_bottom_carried",
-            "east": "honey_side_carried",
-            "north": "honey_side_carried",
-            "south": "honey_side_carried",
-            "up": "honey_top_carried",
-            "west": "honey_side_carried"
-        }
-    },
-    "lit_pumpkin": {
-        "textures": {
-            "down": "pumpkin_top_lit",
-            "east": "pumpkin_side_lit",
-            "north": "pumpkin_side_lit",
-            "south": "pumpkin_face_lit",
-            "up": "pumpkin_top_lit",
-            "west": "pumpkin_side_lit"
-        }
-    },
-    "lit_deepslate_redstone_ore": {
-        "textures": "deepslate_redstone_ore_lit"
-    },
-    "lit_redstone_ore": {
-        "textures": "redstone_ore_lit"
-    },
-    "frog_spawn": {
-        "carried_textures": "frog_spawn_carried"
-    },
-    "chiseled_bookshelf": {
+    "minecraft:chiseled_bookshelf": {
+        "blockshape": "block",
         "carried_textures": {
             "down": "chiseled_bookshelf_top",
             "east": "chiseled_bookshelf_side",
@@ -65,244 +72,255 @@
             "west": "chiseled_bookshelf_side"
         },
         "textures": {
-            "up": "chiseled_bookshelf_top",
             "down": "chiseled_bookshelf_top",
+            "east": "chiseled_bookshelf_side",
             "north": "chiseled_bookshelf_front",
             "south": "chiseled_bookshelf_side",
-            "east": "chiseled_bookshelf_side",
+            "up": "chiseled_bookshelf_top",
             "west": "chiseled_bookshelf_side"
-        },
-        "blockshape": "block"
+        }
     },
-    "acacia_sapling": {
+    "minecraft:closed_eyeblossom": {
         "blockshape": "cross_texture"
     },
-    "birch_sapling": {
+    "minecraft:crimson_fungus": {
         "blockshape": "cross_texture"
     },
-    "cherry_sapling": {
+    "minecraft:crimson_roots": {
         "blockshape": "cross_texture"
     },
-    "dark_oak_sapling": {
+    "minecraft:dandelion": {
         "blockshape": "cross_texture"
     },
-    "jungle_sapling": {
+    "minecraft:dark_oak_sapling": {
         "blockshape": "cross_texture"
     },
-    "oak_sapling": {
+    "minecraft:dead_brain_coral": {
         "blockshape": "cross_texture"
     },
-    "pale_oak_sapling": {
+    "minecraft:dead_bubble_coral": {
         "blockshape": "cross_texture"
     },
-    "sapling": {
+    "minecraft:dead_fire_coral": {
         "blockshape": "cross_texture"
     },
-    "spruce_sapling": {
+    "minecraft:dead_horn_coral": {
         "blockshape": "cross_texture"
     },
-    "allium": {
+    "minecraft:dead_tube_coral": {
         "blockshape": "cross_texture"
     },
-    "azure_bluet": {
+    "minecraft:deadbush": {
         "blockshape": "cross_texture"
     },
-    "blue_orchid": {
+    "minecraft:fern": {
         "blockshape": "cross_texture"
     },
-    "closed_eyeblossom": {
+    "minecraft:fire_coral": {
         "blockshape": "cross_texture"
     },
-    "open_eyeblossom": {
+    "minecraft:firefly_bush": {
+        "blockshape": "cross_texture",
+        "textures": "firefly_bush"
+    },
+    "minecraft:frog_spawn": {
+        "carried_textures": "frog_spawn_carried"
+    },
+    "minecraft:frosted_ice": {
+        "carried_textures": "frosted_ice_carried"
+    },
+    "minecraft:golden_dandelion": {
         "blockshape": "cross_texture"
     },
-    "lilac": {
+    "minecraft:hanging_roots": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:honey_block": {
+        "carried_textures": {
+            "down": "honey_bottom_carried",
+            "east": "honey_side_carried",
+            "north": "honey_side_carried",
+            "south": "honey_side_carried",
+            "up": "honey_top_carried",
+            "west": "honey_side_carried"
+        }
+    },
+    "minecraft:horn_coral": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:ice": {
+        "carried_textures": "ice_carried"
+    },
+    "minecraft:jungle_sapling": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:kelp": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:large_amethyst_bud": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:large_fern": {
         "blockshape": "double_plant"
     },
-    "lily_of_the_valley": {
-        "blockshape": "cross_texture"
-    },
-    "white_tulip": {
-        "blockshape": "cross_texture"
-    },
-    "wither_rose": {
-        "blockshape": "cross_texture"
-    },
-    "yellow_flower": {
-        "blockshape": "cross_texture"
-    },
-    "deadbush": {
-        "blockshape": "cross_texture"
-    },
-    "orange_tulip": {
-        "blockshape": "cross_texture"
-    },
-    "oxeye_daisy": {
-        "blockshape": "cross_texture"
-    },
-    "poppy": {
+    "minecraft:lilac": {
         "blockshape": "double_plant"
     },
-    "red_flower": {
+    "minecraft:lily_of_the_valley": {
         "blockshape": "cross_texture"
     },
-    "red_mushroom": {
+    "minecraft:lit_deepslate_redstone_ore": {
+        "textures": "deepslate_redstone_ore_lit"
+    },
+    "minecraft:lit_pumpkin": {
+        "textures": {
+            "down": "pumpkin_top_lit",
+            "east": "pumpkin_side_lit",
+            "north": "pumpkin_side_lit",
+            "south": "pumpkin_face_lit",
+            "up": "pumpkin_top_lit",
+            "west": "pumpkin_side_lit"
+        }
+    },
+    "minecraft:lit_redstone_ore": {
+        "textures": "redstone_ore_lit"
+    },
+    "minecraft:medium_amethyst_bud": {
         "blockshape": "cross_texture"
     },
-    "brown_mushroom": {
+    "minecraft:nether_sprouts": {
         "blockshape": "cross_texture"
     },
-    "red_tulip": {
-        "blockshape": "cross_texture"
-    },
-    "rose_bush": {
-        "blockshape": "double_plant"
-    },
-    "peony": {
-        "blockshape": "double_plant"
-    },
-    "pink_tulip": {
-        "blockshape": "cross_texture"
-    },
-    "dandelion": {
-        "blockshape": "cross_texture"
-    },
-    "golden_dandelion": {
-        "blockshape": "cross_texture"
-    },
-    "nether_sprouts": {
-        "blockshape": "cross_texture"
-    },
-    "crimson_fungus": {
-        "blockshape": "cross_texture"
-    },
-    "crimson_roots": {
-        "blockshape": "cross_texture"
-    },
-    "warped_fungus": {
-        "blockshape": "cross_texture"
-    },
-    "warped_roots": {
-        "blockshape": "cross_texture"
-    },
-    "hanging_roots": {
-        "blockshape": "cross_texture"
-    },
-    "pale_hanging_moss": {
-        "blockshape": "cross_texture"
-    },
-    "reeds": {
-        "blockshape": "cross_texture"
-    },
-    "brain_coral": {
-        "blockshape": "cross_texture"
-    },
-    "bubble_coral": {
-        "blockshape": "cross_texture"
-    },
-    "fire_coral": {
-        "blockshape": "cross_texture"
-    },
-    "horn_coral": {
-        "blockshape": "cross_texture"
-    },
-    "tube_coral": {
-        "blockshape": "cross_texture"
-    },
-    "dead_brain_coral": {
-        "blockshape": "cross_texture"
-    },
-    "dead_bubble_coral": {
-        "blockshape": "cross_texture"
-    },
-    "dead_fire_coral": {
-        "blockshape": "cross_texture"
-    },
-    "dead_horn_coral": {
-        "blockshape": "cross_texture"
-    },
-    "dead_tube_coral": {
-        "blockshape": "cross_texture"
-    },
-    "short_grass": {
-        "blockshape": "cross_texture"
-    },
-    "fern": {
-        "blockshape": "cross_texture"
-    },
-    "large_fern": {
-        "blockshape": "double_plant"
-    },
-    "tall_grass": {
-        "blockshape": "double_plant"
-    },
-    "tallgrass": {
-        "blockshape": "cross_texture"
-    },
-    "torchflower": {
-        "blockshape": "cross_texture"
-    },
-    "torchflower_crop": {
-        "blockshape": "cross_texture"
-    },
-    "nether_wart": {
+    "minecraft:nether_wart": {
         "blockshape": "rows"
     },
-    "beetroot": {
-        "blockshape": "rows"
-    },
-    "potatoes": {
-        "blockshape": "rows"
-    },
-    "wheat": {
-        "blockshape": "rows"
-    },
-    "carrots": {
-        "blockshape": "rows"
-    },
-    "cactus_flower": {
+    "minecraft:oak_sapling": {
         "blockshape": "cross_texture"
     },
-    "short_dry_grass": {
+    "minecraft:open_eyeblossom": {
         "blockshape": "cross_texture"
     },
-    "tall_dry_grass": {
+    "minecraft:orange_tulip": {
         "blockshape": "cross_texture"
     },
-    "firefly_bush": {
-        "textures": "firefly_bush",
+    "minecraft:oxeye_daisy": {
         "blockshape": "cross_texture"
     },
-    "bush": {
+    "minecraft:pale_hanging_moss": {
         "blockshape": "cross_texture"
     },
-    "small_amethyst_bud": {
+    "minecraft:pale_oak_sapling": {
         "blockshape": "cross_texture"
     },
-    "medium_amethyst_bud": {
-        "blockshape": "cross_texture"
-    },
-    "large_amethyst_bud": {
-        "blockshape": "cross_texture"
-    },
-    "amethyst_cluster": {
-        "blockshape": "cross_texture"
-    },
-    "sunflower": {
+    "minecraft:peony": {
         "blockshape": "double_plant"
     },
-    "web": {
+    "minecraft:pink_tulip": {
         "blockshape": "cross_texture"
     },
-    "cave_vines": {},
-    "cave_vines_body_with_berries": {},
-    "cave_vines_head_with_berries": {},
-    "pitcher_crop": {},
-    "pitcher_plant": {},
-    "kelp": {},
-    "pointed_dripstone": {},
-    "weeping_vines": {},
-    "twisting_vines": {},
-    "seagrass": {},
-    "sweet_berry_bush": {}
+    "minecraft:pitcher_crop": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:pitcher_plant": {
+        "blockshape": "double_plant"
+    },
+    "minecraft:pointed_dripstone": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:poppy": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:potatoes": {
+        "blockshape": "rows"
+    },
+    "minecraft:red_flower": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:red_mushroom": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:red_tulip": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:reeds": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:rose_bush": {
+        "blockshape": "double_plant"
+    },
+    "minecraft:sapling": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:seagrass": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:short_dry_grass": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:short_grass": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:slime": {
+        "carried_textures": "slime_block_carried"
+    },
+    "minecraft:small_amethyst_bud": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:spruce_sapling": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:sunflower": {
+        "blockshape": "double_plant"
+    },
+    "minecraft:sweet_berry_bush": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:tall_dry_grass": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:tall_grass": {
+        "blockshape": "double_plant"
+    },
+    "minecraft:tallgrass": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:tinted_glass": {
+        "carried_textures": "tinted_glass_carried"
+    },
+    "minecraft:torchflower": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:torchflower_crop": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:tube_coral": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:twisting_vines": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:warped_fungus": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:warped_roots": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:web": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:weeping_vines": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:wheat": {
+        "blockshape": "rows"
+    },
+    "minecraft:white_tulip": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:wither_rose": {
+        "blockshape": "cross_texture"
+    },
+    "minecraft:yellow_flower": {
+        "blockshape": "cross_texture"
+    }
 }

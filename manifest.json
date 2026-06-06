@@ -1,10 +1,10 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Opus Visuals 0.0.3",
+    "name": "Opus Visuals 0.0.4",
     "description": "State of the Art Visuals for Minecraft.",
     "uuid": "d842b35c-564a-4299-a185-a6f29cddcc9f",
-    "version": [0, 0, 3],
+    "version": [0, 0, 4],
     "min_engine_version": [1, 21, 120]
   },
   "modules": [
@@ -12,7 +12,7 @@
       "description": "Opus Visuals Resources",
       "type": "resources",
       "uuid": "d32c1e8c-9e67-4ead-a9a9-f58828950299",
-      "version": [0, 0, 3]
+      "version": [0, 0, 4]
     }
   ],
   "capabilities": ["pbr"],
