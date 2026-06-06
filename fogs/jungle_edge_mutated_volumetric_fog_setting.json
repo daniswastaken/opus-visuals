@@ -51,7 +51,7 @@
     "volumetric": {
       "density": {
         "air": {
-          "max_density": 0.22,
+          "max_density": 0.02,
           "max_density_height": 62,
           "zero_density_height": 256
         },
@@ -63,14 +63,14 @@
       "media_coefficients": {
         "air": {
           "scattering": [
-            0.005125,
-            0.00544,
-            0.00525
+            0.015,
+            0.015,
+            0.015
           ],
           "absorption": [
-            0.04131,
-            0.03381,
-            0.02934
+            0.005,
+            0.005,
+            0.005
           ]
         },
         "water": {
@@ -96,6 +96,14 @@
             0.08,
             0.08
           ]
+        }
+      },
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.8
+        },
+        "water": {
+          "henyey_greenstein_g": 0.8
         }
       }
     }
