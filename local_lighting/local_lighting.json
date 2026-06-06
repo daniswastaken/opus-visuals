@@ -160,6 +160,98 @@
     "minecraft:black_candle_cake": {
       "light_color": "#efe39d",
       "light_type": "point_light"
+    },
+    "minecraft:glowstone": {
+      "light_color": "#f2d175",
+      "light_type": "point_light"
+    },
+    "minecraft:sea_lantern": {
+      "light_color": "#c8dfe0",
+      "light_type": "point_light"
+    },
+    "minecraft:shroomlight": {
+      "light_color": "#f09a4e",
+      "light_type": "point_light"
+    },
+    "minecraft:ochre_froglight": {
+      "light_color": "#f2d175",
+      "light_type": "point_light"
+    },
+    "minecraft:pearlescent_froglight": {
+      "light_color": "#e8bfed",
+      "light_type": "point_light"
+    },
+    "minecraft:verdant_froglight": {
+      "light_color": "#a4e8a4",
+      "light_type": "point_light"
+    },
+    "minecraft:campfire": {
+      "light_color": "#efe39d",
+      "light_type": "point_light"
+    },
+    "minecraft:soul_campfire": {
+      "light_color": "#00ffff",
+      "light_type": "point_light"
+    },
+    "minecraft:lit_furnace": {
+      "light_color": "#ce8133",
+      "light_type": "point_light"
+    },
+    "minecraft:lit_blast_furnace": {
+      "light_color": "#ce8133",
+      "light_type": "point_light"
+    },
+    "minecraft:lit_smoker": {
+      "light_color": "#ce8133",
+      "light_type": "point_light"
+    },
+    "minecraft:jack_o_lantern": {
+      "light_color": "#efe39d",
+      "light_type": "point_light"
+    },
+    "minecraft:beacon": {
+      "light_color": "#ffffff",
+      "light_type": "point_light"
+    },
+    "minecraft:respawn_anchor": {
+      "light_color": "#6b00a8",
+      "light_type": "point_light"
+    },
+    "minecraft:crying_obsidian": {
+      "light_color": "#6b00a8",
+      "light_type": "point_light"
+    },
+    "minecraft:sculk_catalyst": {
+      "light_color": "#0bc2cf",
+      "light_type": "point_light"
+    },
+    "minecraft:copper_bulb": {
+      "light_color": "#ce8133",
+      "light_type": "point_light"
+    },
+    "minecraft:exposed_copper_bulb": {
+      "light_color": "#b0784a",
+      "light_type": "point_light"
+    },
+    "minecraft:weathered_copper_bulb": {
+      "light_color": "#6e9a6e",
+      "light_type": "point_light"
+    },
+    "minecraft:oxidized_copper_bulb": {
+      "light_color": "#5b9a7a",
+      "light_type": "point_light"
+    },
+    "minecraft:waxed_copper_bulb": {
+      "light_color": "#ce8133",
+      "light_type": "point_light"
+    },
+    "minecraft:magma": {
+      "light_color": "#cc4400",
+      "light_type": "point_light"
+    },
+    "minecraft:redstone_lamp": {
+      "light_color": "#f2d175",
+      "light_type": "point_light"
     }
   }
 }
