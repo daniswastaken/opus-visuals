@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import zipfile
 
 def bump_version():
     # Resolve manifest path relative to script location for robust execution
@@ -47,6 +48,34 @@ def bump_version():
     
     print(f"Pack name updated to: '{new_name}'")
     print(f"Version bumped to: {new_version_str}")
+
+    # Zip the project directory into an .mcpack file
+    pack_name = new_name.replace(' ', '-')
+    mcpack_filename = f"{pack_name}.mcpack"
+    
+    # Remove any existing .mcpack files
+    for file in os.listdir(root_dir):
+        if file.endswith('.mcpack'):
+            os.remove(os.path.join(root_dir, file))
+            print(f"Removed old pack: {file}")
+
+    excluded_items = ['.git', '.tools', '.env', '__pycache__', '.agents', '.gitignore']
+    
+    with zipfile.ZipFile(mcpack_filename, 'w', zipfile.ZIP_DEFLATED) as zipf:
+        for root, dirs, files in os.walk(root_dir):
+            # Exclude development files/folders
+            dirs[:] = [d for d in dirs if d not in excluded_items]
+            
+            for file in files:
+                if file in excluded_items or file.endswith('.mcpack') or file.endswith('.pyc'):
+                    continue
+                
+                file_path = os.path.join(root, file)
+                arcname = os.path.relpath(file_path, root_dir)
+                zipf.write(file_path, arcname)
+    
+    print(f"Pack created: {mcpack_filename}")
+    print(f"Excluded items: {', '.join(excluded_items)}")
 
 if __name__ == "__main__":
     bump_version()

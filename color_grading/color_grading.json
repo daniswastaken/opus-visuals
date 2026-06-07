@@ -6,11 +6,7 @@
     },
     "color_grading": {
       "shadows": {
-        "contrast": [1.05, 1.1, 1.15],
-        "gain": [0.95, 1.0, 1.1],
-        "gamma": [0.9, 0.9, 0.95],
-        "offset": [0.01, 0.02, 0.03],
-        "saturation": [1.1, 1.15, 1.25]
+        "enabled": false
       },
       "midtones": {
         "contrast": [1.2, 1.15, 1.1],
@@ -33,16 +29,7 @@
       }
     },
     "tone_mapping": {
-      "operator": "uchimura",
-      "uchimura": {
-        "max_brightness": 100.0,
-        "contrast": 1.1,
-        "linear_section_start": 0.22,
-        "linear_section_length": 0.4,
-        "black_tightness": 1.05,
-        "black_tightness_b": 0.0,
-        "exposure_bias": 0.1
-      }
+      "operator": "hable"
     }
   }
 }

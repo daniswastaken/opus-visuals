@@ -84,7 +84,7 @@
           "henyey_greenstein_g": 0.8
         },
         "water": {
-          "henyey_greenstein_g": 0.8
+          "henyey_greenstein_g": 0.3
         }
       }
     }

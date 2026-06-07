@@ -1,12 +1,12 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Opus Visuals 0.1.3",
+    "name": "Opus Visuals 0.2.3",
     "description": "State of the Art Visuals for Minecraft.",
     "uuid": "d842b35c-564a-4299-a185-a6f29cddcc9f",
     "version": [
       0,
-      1,
+      2,
       3
     ],
     "min_engine_version": [
@@ -22,7 +22,7 @@
       "uuid": "d32c1e8c-9e67-4ead-a9a9-f58828950299",
       "version": [
         0,
-        1,
+        2,
         3
       ]
     }
