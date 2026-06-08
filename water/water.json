@@ -5,9 +5,9 @@
       "identifier": "opus:default_water"
     },
     "particle_concentrations": {
-      "chlorophyll": 0.004,
-      "suspended_sediment": 0.15,
-      "cdom": 2.5
+      "chlorophyll": 0.05,
+      "suspended_sediment": 0.0,
+      "cdom": 0.0
     },
     "caustics": {
       "enabled": true,
@@ -17,7 +17,7 @@
       "power": 2
     },
     "waves": {
-      "enabled": true,
+      "enabled": false,
       "frequency": 1.25,
       "octaves": 22,
       "depth": 0.078,
